@@ -6,7 +6,7 @@ import ApolloClient from "apollo-boost";
 import { ApolloProvider } from "@apollo/react-hooks";
 
 const client = new ApolloClient({
-  uri: "https://literate-orca-93.hasura.app/v1/graphql",
+  uri: "YOUR GRAPHQL ENDPOINT",
 });
 
 ReactDOM.render(
